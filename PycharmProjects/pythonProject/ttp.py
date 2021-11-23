@@ -1,0 +1,7 @@
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+p = 2 * (abs(x2 - x1) + abs(y2 - y1))
+s = abs((x2 - x1) * (y2 - y1))
+print(p, s)
